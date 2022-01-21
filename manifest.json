@@ -1,6 +1,6 @@
 {
-  "name": "Pushwoosh Demo",
-  "short_name": "Pushwoosh Demo",
+  "name": "alexey-reshetnikov.github.io",
+  "short_name": "alexey-reshetnikov.github.io",
   "gcm_sender_id": "998151629237",
   "display": "standalone",
   "gcm_user_visible_only": true
