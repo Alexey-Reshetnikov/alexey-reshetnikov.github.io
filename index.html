@@ -21,14 +21,17 @@
           userId: 'user_id',
           tags: {
             'Name': 'Alexey Reshetnikov'
-          }
-              Pushwoosh.push(['onSubscribe', function(api) {
-            console.log('User successfully subscribed');
+        Pushwoosh.push(['onSubscribe', function(api) {
+              console.log('User successfully subscribed');
+        Pushwoosh.push(['onUnsubscribe', function(api) {
+              console.log('User successfully unsubscribed');            
+          }            
         }]);
     </script>
 </head>
 <body>
     <h1>Alexey Reshetnikov Web SDK Test</h1>
     <button onclick="Pushwoosh.subscribe()">Subscribe</button>
+    <button onclick="Pushwoosh.unsubscribe()">Unsubscribe</button>
 </body>
 </html>
